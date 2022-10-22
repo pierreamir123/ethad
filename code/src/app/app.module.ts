@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/HEADER.component';
+import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { SidebarProfileComponent } from './sidebar/sidebar-profile/sidebar-profile.component';
 import { DashBoardComponent } from './dash-board/dash-board.component';
@@ -15,6 +15,8 @@ import { TicketPriorityWidgetComponent } from './dash-board/ticket-priority-widg
 var CanvasJSChart = CanvasJSAngularChart.CanvasJSChart;
 import { BarChartComponent } from './dash-board/charts-widget/bar-chart/bar-chart.component';
 import { RecentTicketsComponent } from './dash-board/recent-tickets/recent-tickets.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,10 +32,13 @@ import { RecentTicketsComponent } from './dash-board/recent-tickets/recent-ticke
        TicketPriorityWidgetComponent,
        BarChartComponent,
        RecentTicketsComponent,
+
    ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
+
   ],
   providers: [],
   bootstrap: [AppComponent,

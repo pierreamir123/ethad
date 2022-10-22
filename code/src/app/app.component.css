@@ -69,18 +69,15 @@
 		left: 795px;
 		top: 851px;
 	}
-	#BG_01 {
-		opacity: 0.9;
-		fill: rgba(255,255,255,1);
-	}
+
 	.BG_01 {
-		filter: drop-shadow(0px 6px 20px rgba(193, 207, 217, 0.2));
-		position: absolute;
-		overflow: visible;
-		width: 425px;
-		height: 1150px;
-		left: 0px;
-		top: -21px;
+		background: transparent url('../assets/01/svg-export/svgexport-1.png') 0% 0% no-repeat padding-box;
+    /* box-shadow: 0px 6px 10px #C1CFD933; */
+    opacity: 1;
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+
 	}
 	#Rectangle_2528 {
 		fill: rgba(255,255,255,1);
@@ -138,8 +135,7 @@
 	}
 	#Group_3200 {
 		position: absolute;
-		width: 348.5px;
-		height: 614.093px;
+
 		left: 7px;
 		top: 138px;
 		overflow: visible;
@@ -219,13 +215,12 @@
 		stroke-linecap: butt;
 		stroke-miterlimit: 4;
 		shape-rendering: auto;
+
 	}
 	.Line_25 {
 		overflow: visible;
-		position: absolute;
-		width: 345px;
-		height: 1px;
-		left: 0px;
+		position: relative;
+		left: 500px;
 		top: 0px;
 		transform: matrix(1,0,0,1,0,0);
 	}
@@ -242,8 +237,7 @@
 	.Line_26 {
 		overflow: visible;
 		position: absolute;
-		width: 345px;
-		height: 1px;
+
 		left: 3.5px;
 		top: 351.5px;
 		transform: matrix(1,0,0,1,0,0);
@@ -262,6 +256,24 @@
 		font-size: 16px;
 		color: rgba(37,136,223,1);
 	}
+  #Dashboard-onaction{
+
+		left: 114px;
+		top: 388.902px;
+		position: absolute;
+		overflow: visible;
+		width: 82px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgb(63, 65, 66);
+	}
+
+
+
 	#Path_2816 {
 		fill: rgba(37,136,223,1);
 	}
@@ -269,8 +281,7 @@
 		filter: drop-shadow(1px 2px 6px rgba(0, 0, 0, 0.161));
 		overflow: visible;
 		position: absolute;
-		width: 33.5px;
-		height: 72.001px;
+
 		left: 315.833px;
 		top: 372.5px;
 		transform: matrix(1,0,0,1,0,0);
@@ -280,7 +291,7 @@
 		top: 94px;
 		position: absolute;
 		overflow: visible;
-		width: 159px;
+
 		white-space: nowrap;
 		line-height: 23px;
 		margin-top: -1px;
@@ -297,7 +308,7 @@
 		top: 181px;
 		position: absolute;
 		overflow: visible;
-		width: 85px;
+
 		white-space: nowrap;
 		line-height: 23px;
 		margin-top: -4px;
@@ -314,7 +325,7 @@
 		top: 207px;
 		position: absolute;
 		overflow: visible;
-		width: 158px;
+
 		white-space: nowrap;
 		line-height: 23px;
 		margin-top: -4px;
@@ -331,7 +342,7 @@
 		top: 154px;
 		position: absolute;
 		overflow: visible;
-		width: 99px;
+
 		white-space: nowrap;
 		line-height: 23px;
 		margin-top: -4px;
@@ -348,7 +359,7 @@
 		top: 233px;
 		position: absolute;
 		overflow: visible;
-		width: 222px;
+
 		white-space: nowrap;
 		line-height: 23px;
 		margin-top: -4px;
@@ -362,24 +373,22 @@
 	}
 	#pexels-italo-melo-2379004 {
 		position: absolute;
-		width: 63px;
-		height: 63px;
+
+
 		left: 147px;
 		top: 26px;
 		overflow: visible;
 	}
 	#Group_3438 {
 		position: absolute;
-		width: 116.939px;
-		height: 45.939px;
+
 		left: 118px;
 		top: 272px;
 		overflow: visible;
 	}
 	#Group_3156 {
 		position: absolute;
-		width: 45.939px;
-		height: 45.939px;
+
 		left: 0px;
 		top: 0px;
 		overflow: visible;
@@ -391,8 +400,7 @@
 		filter: drop-shadow(1px 1px 5px rgba(9, 9, 9, 0.102));
 		overflow: visible;
 		position: absolute;
-		width: 45.939px;
-		height: 45.939px;
+
 		transform: translate(0px, 0px) matrix(1,0,0,1,0,0) rotate(0deg);
 		transform-origin: center;
 		left: 0px;
@@ -404,24 +412,21 @@
 	.Icon_ionic-md-person {
 		overflow: visible;
 		position: absolute;
-		width: 23.558px;
-		height: 23.558px;
+
 		left: 10.601px;
 		top: 9.631px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#Group_3158 {
 		position: absolute;
-		width: 45.939px;
-		height: 45.939px;
+
 		left: 71px;
 		top: 0px;
 		overflow: visible;
 	}
 	#Group_3158_bi {
 		position: absolute;
-		width: 45.939px;
-		height: 45.939px;
+
 		left: 0px;
 		top: 0px;
 		overflow: visible;
@@ -695,8 +700,6 @@
 	}
 	#Image_1 {
 		position: absolute;
-		width: 244px;
-		height: 102px;
 		left: 49px;
 		top: 19px;
 		overflow: visible;
@@ -1892,30 +1895,27 @@
 		fill: rgba(37,136,223,1);
 	}
 	.Rectangle_497 {
-		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-		position: absolute;
-		overflow: visible;
-		width: 1573px;
-		height: 116px;
-		left: 365px;
-		top: 0px;
+		/* top: 0px; */
+    /* left: 365px;
+    width: 1555px; */
+    height: 98px;
+    /* UI Properties */
+    background: transparent url('../assets/01/497.png') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
 	}
 	#Dashboard_ef {
-		left: 412px;
-		top: 30px;
-		position: absolute;
-		overflow: visible;
-		width: 156px;
-		white-space: nowrap;
-		line-height: 35px;
-		margin-top: -3px;
-		text-align: left;
-		font-family: Segoe UI;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 29px;
-		color: rgba(255,255,255,1);
-		letter-spacing: 0.3px;
+
+    top: 30px;
+    left: -50px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font: normal normal bold 29px/35px Segoe UI;
+    letter-spacing: 0.87px;
+    color: #FFFFFF;
+    opacity: 1;
+
 	}
 	#Icon_awesome-caret-down {
 		fill: rgba(255,255,255,1);
@@ -1930,22 +1930,17 @@
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#n_Comprehensive_Insurance_Depa {
-		left: 1488px;
-		top: 35px;
-		position: absolute;
-		overflow: visible;
-		width: 361px;
-		height: 29px;
-		--web-animation: fadein 0.30000001192092896s ease-out;
-		--web-action-type: page;
-		--web-action-target: Web_1920___82.html;
-		cursor: pointer;
-		text-align: left;
-		font-family: Segoe UI;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 20px;
-		color: rgba(255,255,255,1);
+		/* top: 35px;
+    left: 1488px;
+    width: 360px;
+    height: 29px; */
+
+    text-align:right;
+    font: normal normal normal 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
 	}
 
 
