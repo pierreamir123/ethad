@@ -1,13 +1,21 @@
-<div class="container-sm">
+<div class="container-fluid">
   <div class="row">
-<app-welcomeWidget></app-welcomeWidget>
-<app-status></app-status>
+    <div class="col-5">
+      <app-welcomeWidget></app-welcomeWidget>
+    </div>
+    <div class="col-7">
+      <app-status></app-status>
+    </div>
 </div>
-<div class="row">
+<div class="row" style="margin-top: 45.43px;">
 <app-charts-widget></app-charts-widget>
 </div>
 <div class="row">
-<app-ticket-priority-widget></app-ticket-priority-widget>
-<app-recent-tickets></app-recent-tickets>
+  <div class="col-6">
+    <!-- <app-ticket-priority-widget></app-ticket-priority-widget> -->
+  </div>
+<div class="col-6">
+  <!-- <app-recent-tickets></app-recent-tickets> -->
+</div>
 </div>
 </div>

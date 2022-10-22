@@ -1,9 +1,10 @@
 .header{
-  top: 0px;
-left: 365px;
-width: 1555px;
+max-width: 1555px;
+min-width: 1200px;
 height: 98px;
-background: transparent url('../../assets/01/497.png') 0% 0% no-repeat padding-box;
 box-shadow: 0px 3px 6px #00000029;
 opacity: 1;
+display: flex;
+overflow: hidden;
+position: relative;
 }
